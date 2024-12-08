@@ -1,0 +1,11 @@
+Date: 2024-12-01
+Description: Cleaned and processed GPS data derived from the raw dataset collected on December 1, 2024, in Dallas, TX. Includes geospatial transformations and data validation steps to remove outliers and erroneous entries.
+Format: Parquet
+Source: Cleaned from raw_gps_data_2024-12-01.csv
+Purpose: Provide structured data for modeling traffic congestion and route optimization.
+Raw Fields Included:
+Latitude
+Longitude
+Timestamp (transformed to ISO 8601 format)
+Speed (validated for realistic values, e.g., 0-120 mph)
+Direction (encoded as cardinal directions: N, S, E, W).
