@@ -1,0 +1,12 @@
+Date: 2024-12-01
+Description: Raw GPS data collected from telematics systems installed in vehicles participating in a traffic monitoring project in Dallas, TX, during December 2024. Collected to analyze traffic congestion patterns.
+Fields Included:
+Latitude
+Longitude
+Timestamp
+Vehicle ID
+Speed
+Direction
+Format: CSV
+Purpose: Analyze raw vehicle movement for understanding congestion during peak hours.
+Source: Vehicle telematics systems from local rideshare companies.
